@@ -1,0 +1,178 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.footer{
+    background: #152F4F;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+  .login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    background: #0062cc;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Fondo azul apagado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutíl */
+}
+
+.nav-link {
+    color: #495057; /* Color de texto más oscuro */
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #0d7cf3; /* Azul primario */
+    border-color: #a2ccf8;
+}
+
+.btn-outline-primary {
+    color: #ffffff; /* Texto azul primario */
+}
+
+/* Estilos para las tarjetas */
+.card {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+.card-title {
+    color: #343a40; /* Color de texto más oscuro */
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #547bfc79; /* Fondo azul apagado */
+    color: #fcfeff; /* Color de texto más oscuro */
+}
+
+/* Otros estilos */
+body {
+    background-color: #81adda; /* Fondo general */
+    color: #343a40; /* Color de texto principal */
+    font-family: Arial, sans-serif; /* Fuente legible */
+}
+/* Estilo para el botón Buscar */
+.btn-buscar {
+    background-color: #1c9941; /* Cambia el color del fondo del botón */
+    border-color: #6c757d; /* Cambia el color del borde del botón */
+    color: #ffffff; /* Cambia el color del texto del botón */
+}
+
+/* Opcional: Cambia el color del texto del botón cuando se activa */
+.btn-buscar:hover,
+.btn-buscar:focus {
+    background-color: #00530e; /* Cambia el color del fondo del botón al pasar el ratón o hacer foco */
+    border-color: #545b62; /* Cambia el color del borde del botón al pasar el ratón o hacer foco */
+    color: #fff; /* Mantiene el color del texto del botón al pasar el ratón o hacer foco */
+}
+.carousel-item {
+    display: flex;
+    border-top: 10px;
+    justify-content: center;
+    align-items: right;
+    height: 500px; /* Ajusta la altura según tu necesidad */
+}
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.btn-buscar {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+}
+.btn-buscar:hover {
+    background-color: #0056b3;
+    color: white;
+}
